@@ -1,0 +1,173 @@
+.sheet {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 64px;
+}
+.sheet .a,
+.sheet .b{
+  height: 50%;
+}
+.sheet .b img{min-height: 100%;}
+nav {
+  line-height: 1;
+  box-shadow: none;
+}
+.nav-wrapper {
+  background: white;
+  box-shadow: none;
+  color: black;
+}
+nav .brand-logo {
+  height: 100%;
+  width: 20%;
+}
+.container-login {
+  display: none;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+  overflow: hidden;
+}
+.validate {
+  color: white;
+}
+#btn_login {
+  font-weight: bold;
+}
+.logout {
+  color: red;
+  float: right;
+  transition: all 1s ease-out;
+  margin: .5rem .5rem 0 0;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: .25rem.8em;
+}
+.logout:hover {
+  background: red;
+  color: white;
+  border-radius: 5px;
+}
+.toast {
+  background: #c22826;
+  text-shadow: 0 0 2px white;
+  font-weight: 300;
+}
+.navigation {
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  background-color: white;
+}
+.navigation nav {
+  padding: 0 8%;
+  background-color: white;
+  box-sizing: border-box;
+}
+.navigation .responsive-iresponsive-img{transition:.5s;}
+.navigation .menu-ges nav{padding: 0;}
+.navigation .menu-ges nav ul{height: 100%;}
+.navigation .menu-ges nav ul li{margin-top: 0; height: 100%;}
+.navigation .menu-ges nav ul li a{height: 90%; margin-top: .15em; padding: .7em;}
+.text {
+  padding: 10% 2% 5% 3%;
+}
+.text a {
+  color: #00ccc8;
+}
+.parallax-container {
+  height: 100%;
+  z-index: 99;
+}
+.files {
+  height: 100%;
+}
+.files img{height:100%; margin: 0 auto;}
+img {
+  display: block;
+  margin: .5em auto;
+}
+.message{
+  padding: 6% 0;
+  height: 100%;
+  background-color: #26a69a;
+  color: white;
+  text-align: center;
+}
+.message h2{
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 200;
+}
+.message h6{font-size: 12px;}
+.f_register{
+  background-color: rgba(128, 128, 128, 0.12);
+  padding: 5em 0;
+  text-align: center;
+}
+.f_register h3{
+  color: #323232;
+  font-size: 32px;
+  font-family: 'Roboto',Helvetica;
+}
+.f_register a{
+  font-family: 'Roboto',Helvetica;
+  color: white;
+  background: #00ccc8;
+  border: #00ccc8;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: .2em 3em;
+  box-sizing: content-box;
+}
+.terms_container .container .row > div{padding-right: .5em;}
+.terms_container .container .row > div:nth-child(1){border-bottom: thin solid gray;}
+.terms_container .container .row > div:nth-child(2) ul{color:gray;}
+.terms_container .container .row > div:nth-child(2) ul:nth-child(2){float: right;}
+.terms_container .container .row > div:nth-child(3){margin-top: 1rem; font-size: 14px;}
+.terms_container .container .row > div:nth-child(3) a{font-weight: bold;}
+.terms_container .container .row > div:nth-child(3) h6{margin-left: 1em;}
+.terms_container .terms,.terms_container ul{ display: inline-block; margin: 1em 0 .15em 0;}
+.terms_container .terms li,.terms_container ul li{display: inline-block;margin-left: 1rem;}
+.terms_container .terms li a{font-weight: bold;color: #323232;}
+.terms_container .language{color:gray;}
+.terms_container .language,.terms_container .colombia{float: right;margin: 1em .25em 0;}
+.terms_container .colombia{margin: 1.4em .25em 0;}
+.terms_container .colombia div:nth-child(1){background: yellow;height: 4px;}
+.terms_container .colombia div:nth-child(2){background: blue;}
+.terms_container .colombia div:nth-child(3){background: red;}
+.terms_container .colombia div{width: 10px; height: 2px;}
+
+.shadow{box-shadow: 0 0 10px 2px rgba(130,130,130,.8);}
+.shadow .responsive-img{max-width: 75%;transition: all .3s ease;}
+.shadow nav{height: 45px;}
+.shadow .menu-ges{margin-left: 15%;transition: all .2s ease;}
+.shadow .menu-ges nav ul {height:100%;}
+.shadow .menu-ges nav ul li{margin-top: 0; padding: 0;}
+.shadow .menu-ges nav ul li a{ padding: .35em 1em 0;display: block; height: 90%;margin-top: .15em;}
+.shadow .logIn,.shadow .signUp{margin-top: .55em; padding: .45rem 1rem;line-height: 1;border-radius: 10px;height: inherit;}
+.files_content{padding: 18% 8% 0;}
+.files_content h1,
+.files_content p,
+.files_content a{line-height: 1.5;}
+.files_content h1{font-size: 1.5rem; color: white;}
+.files_content p{font-size: 16px; color: white;}
+.files_content a{font-size: 14px; color: #26A69A;}
+
+@media (min-width: 1200px) {
+  .navigation nav {
+    padding: 0 15% 0 16%;
+  }
+}
+@media (max-width: 1240px) {
+  .navigation nav {
+    padding: 0 8%;
+  }
+}

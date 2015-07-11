@@ -1,0 +1,25 @@
+@media (min-width: 1024px){
+    .all-ges {
+        height: 75vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .nets{
+        height: 22vh;
+    }
+}
+@media (max-width: 1024px){
+    .all-ges img {
+        width: 100%;
+        height: auto;
+    }
+    .all-ges {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .navbar{
+        padding-top: 1.1em;
+    }
+}

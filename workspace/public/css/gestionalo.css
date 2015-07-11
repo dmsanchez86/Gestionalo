@@ -1,0 +1,71 @@
+.sidenav_profile{
+    border-left: 4px solid rgb(0, 196, 197);
+}
+
+.container_group {
+  padding: 11px;
+}
+
+h1.title_group {
+    font-size: 22px;
+    line-height: inherit;
+    margin: 0;
+    color: rgb(20, 41, 62);
+    font-style: italic;
+}
+
+span.label_caption {
+  float: left;
+  width: 100%;
+  color: rgb(146, 150, 154);
+  line-height: 0.3;
+  font-size: 17px;
+    margin-top: 8px;
+}
+
+.label_group {
+  float: left;
+  width: 100%;
+  color: rgb(20, 41, 62);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.core.border.monyear {
+  background: #00d5cc;
+}
+.core.border.dow {
+  background: #1d2841;
+}
+.sun, .mon, .tue, .wed, .thu, .fri, .sat {
+  background: #1d2841 !important;
+  color: #fff !important;
+}
+.gldp-default .outday {
+  color: #fff !important;
+  background: rgba(29, 40, 65, 0.85) !important;
+}
+
+.core.border.selected::after {
+    content: '';
+  position: absolute;
+  border-radius: 50%;
+  left: 0px;
+  width: 63%;
+  height: 86%;
+  border: 2px solid rgb(0, 213, 204);
+  display: block;
+  top: 0;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+}
+.datos_info {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  bottom: 0px;
+  height: 384px;
+  margin: auto;
+}
+
